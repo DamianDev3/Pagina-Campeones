@@ -62,6 +62,21 @@ npm run build:css
 
 El resultado se genera en `assets/css/tailwind.css`. Subí el proyecto con ese archivo compilado.
 
+## Deploy en Vercel
+
+El proyecto es estático y ya incluye el CSS compilado.
+
+1. Subí los cambios a GitHub.
+2. Importá el repositorio en Vercel.
+3. Framework Preset: **Other**.
+4. Build Command: dejalo vacío.
+5. Output Directory: `./`.
+6. Deploy.
+
+Si cambiás clases de Tailwind, ejecutá `npm run build:css` antes de hacer push y commiteá el CSS generado.
+
+El botón de WhatsApp debe apuntar al número real: `https://wa.me/54...`.
+
 ## Notas
 
 - No editar `assets/css/tailwind.css` directamente: se regenera con el comando de build.
