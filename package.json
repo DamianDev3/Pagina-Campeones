@@ -1,0 +1,26 @@
+{
+  "name": "pagina-web-campeones",
+  "version": "1.0.0",
+  "description": "Landing page estatica de Campeones Squad con Tailwind CSS compilado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamianDev3/Pagina-Campeones.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamianDev3/Pagina-Campeones/issues"
+  },
+  "homepage": "https://github.com/DamianDev3/Pagina-Campeones#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
